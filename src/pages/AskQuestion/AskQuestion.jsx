@@ -15,7 +15,7 @@ const AskQuestion = () => {
   const [error, setError] = useState('');
 
   const navigate = useNavigate();
-  const backendURL = 'https://stack-backend-db90.onrender.com'; // Replace with your backend URL
+  const backendURL = 'https://stack-backend-db90.onrender.com/'; // Replace with your backend URL
 
   const handleSendOtp = async () => {
     try {
