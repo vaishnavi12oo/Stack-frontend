@@ -28,7 +28,7 @@ const handleEnter=(e)=>{
     return (
         <div className='ask-question'>
          <div className="ask-ques-container">
-            <h1>Ask a public Question</h1>
+            <h1>Ask a public Question by user</h1>
             <form onSubmit={handleSubmit}>
                 <div className='ask-form-container'>
                     <label htmlFor='ask-ques-title'>
@@ -52,7 +52,8 @@ const handleEnter=(e)=>{
                 <input type="text" name='questionTitle'id='ask-ques-tags' onChange={(e)=>{setQuesionTags(e.target.value.replace(/\s+/g, ' ').trim().split(' '))}} placeholder="e.g. (xml typescript wordpress)"></input>
                     </label>
                 </div>
-                <input type="submit" value='Review your question' id=""className='review-btn' />
+                <input type="submit" value='Review your question' id=""className='review-btn' ></input>
+                
             </form>
             
             </div> 
